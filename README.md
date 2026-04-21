@@ -14,7 +14,8 @@ Your task is to design and implement this system using the **Composite Design Pa
 
 ## Implementation Guide (UML Diagram)
 Use the following UML Class Diagram as your blueprint for implementation. Note how `MenuCategory` exhibits the key characteristics of the Composite pattern: it implements the common interface (`MenuComponent`) but also maintains a list of components that implement that same interface.
-![UML Class Diagram Composite Design Pattern](images/UMLCD_CompositePattern.png)
+![UML Class Diagram Composite Design Pattern]<img width="518" height="296" alt="pic 1" src="https://github.com/user-attachments/assets/224fad09-b205-4040-943e-d15644581153" />
+
 
 ## Requirements & Steps
 #### Step A: The Component Interface
@@ -39,4 +40,5 @@ Implement `MenuCategory`:
 4. **Test:** Call `print()` and `getPrice()` on the Main Menu.
 
 ## Expected Output
-When run, your client application should produce output similar to:
+When run, your client application should produce output similar to:<img width="261" height="208" alt="pic 2" src="https://github.com/user-attachments/assets/5da7fb13-f646-4a03-869a-018f92878ebf" />
+
